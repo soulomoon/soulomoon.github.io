@@ -1,0 +1,32 @@
+.BlogNavBarLogo {
+  width: 25%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+.BlogNavBarLogo img {
+  width: 25%;
+  height: auto;
+  max-height: 100%;
+}
+
+.BlogNavBarLogo img{
+  width: 50%;
+  height: 50%;
+  max-width: 100%;
+  overflow: visible;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.BlogNavBarLogo:hover img{
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  overflow: visible;
+  -webkit-transform: rotate(90deg);
+
+}

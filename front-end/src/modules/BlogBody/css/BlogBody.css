@@ -1,0 +1,131 @@
+.BlogBody {
+  height: 100%;
+  display: flex;
+  /*overflow: scroll;*/
+  /*border: 1px solid black;*/
+}
+@media screen and (max-width: 1200px) {
+/*Artical*/	
+    .ArticalsContent{
+      padding: 5% 0 0 0
+    }	
+/*content###################*/
+    .BlogBody {
+      display: block;
+    }
+    .BlogContent {
+        width: 100%;
+        height: 90%;
+    }
+
+    .BlogArticalsTopBar{
+      height: 20%;
+      /*border: 1px solid #333;*/
+
+      width: 100%;
+    }
+
+    .ArticalsTopBarGallery {
+        height: 80%;
+    }
+    .BlogArticalGalleryRow{
+      display: flex;
+
+      position: absolute;
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .BlogNavBarItems{
+      width: 75%;
+    }
+    .ImgContainer{
+      padding-right: 0%;
+      padding-left: 0%;
+
+    }
+    .ImgContainer img {
+        right: 0;
+        left: 0;
+    }
+
+/*content###################*/
+
+/*sidbar####################*/
+    .BlogNavBar ul {
+      display: flex;
+    }
+    .BlogNavBar li {
+      width: 20%;
+      height: 100%;
+
+    }
+    .BlogNavBar a{
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .BlogNavBar {
+      width: 100%;
+      height: 10%;
+      /*border: 1px solid red;*/
+      display: flex;
+
+      position: relative;
+    }
+    .BlogNavBarItems {
+      position: relative;
+      height: 100%;
+      /*border: 1px solid yellow;*/
+    }
+    .BlogNavBarLogo img{
+      width: 100%;
+      height: 100%;
+    }
+    /*sidebar log*/
+    .BlogNavBarLogo {
+      width: 25%;
+      height: auto;
+      overflow: visible;
+      position: relative;
+    }
+
+
+    /*sidebar log*/
+
+/*sidbar####################*/
+
+}
+@media screen and (max-width: 750px) {
+    .BlogNavBarItems {
+      width: 100%
+    }
+    .BlogNavBarLogo {
+      display: none;
+    }
+    .BlogNavBar {
+      min-height: 30px;
+      max-height: 50px;
+    }
+    .BlogNavBar a {
+      height: 100%;
+    }
+    .BlogArticalsTopBar{
+      display: none;
+    }
+    body {
+      font-size: 1.3em;
+    }
+    .ArticalsContent {
+      padding: 5% 0 0 0
+    }
+}
+
+/*equal children height*/
+
+/*div.BlogBody>* {
+  padding-bottom: 100%;
+  margin-bottom: -100%;
+}*/

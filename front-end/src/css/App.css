@@ -1,0 +1,51 @@
+html,
+body,
+#root,
+.app-container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+#root {
+  /*position: absolute;*/
+}
+.app-container {
+  /*position: fixed;*/
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /*overflow: hidden;*/
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+.center {
+    margin: 0 auto;
+    max-width: 1440px;
+    /*padding-left: 24px;
+    padding-right: 24px;*/
+}
+a {
+  color: #000;
+}
+a:hover{
+  text-decoration:none;
+}

@@ -1,0 +1,132 @@
+.BlogArticlesTopBar{
+   height: 25%;
+   /*border: 1px solid #333;*/
+
+   width: 100%;
+   display: inline-block;
+}
+
+.ArticlesTopBarGallery {
+   position: absolute;
+   bottom: 0;
+   height: 50%;
+
+   width: 100%;
+}
+
+
+.BlogArticleGalleryRow{
+   display: flex;
+
+   position: absolute;
+   padding-right: 20%;
+   padding-left: 0%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   /*height: 100%;*/
+   /*width: 100%;
+   height: 100%;*/
+}
+.ImgContainer{
+   /*position: absolute;*/
+   right: 0;
+   left: 0;
+   bottom: 0;
+   margin-right: 5%;
+   margin-left: 5%;
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+
+   /*display: inline;*/
+
+   /*height: 100%;
+   width: 33.33333333333%;*/
+}
+
+.ImgContainer img {
+  position: absolute;
+  bottom: 0;
+
+  overflow: hidden;
+
+  /*clear: both;*/
+  margin:auto;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ImgContainer {
+  max-width: 100%;
+  overflow: hidden;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.ImgContainer:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  /*transform: rotate(360deg);*/
+
+}
+
+.ArticlesNav{
+ height: 100%;
+ width:100%
+}
+
+.ArticalList {
+  height: 75%;		
+  padding: 10px 20% 0 0%;
+}
+
+
+.ArticleItem {
+	   white-space: pre-wrap;      /* CSS3 */
+   white-space: -moz-pre-wrap; /* Firefox */
+   white-space: -pre-wrap;     /* Opera <7 */
+   white-space: -o-pre-wrap;   /* Opera 7 */
+   word-wrap: break-word;      /* IE */
+  height: 33.33333333%;	
+  border-top: 3px solid #d9d9d9;
+  margin-right: 5%;
+  margin-left: 5%;
+  overflow: hidden
+}
+
+.ArticleItem > a {
+  display: table-row;
+	 display: table;
+}
+.ArticleItem > a > * {
+  display: table-row;
+}
+
+
+
+.ArticleItem > * {
+  padding-left: 5%
+}
+
+.ArticleItem h1 {
+  font-family: Impact;
+  font-size: 1.8em;
+}
+.ArticleItem > p {
+  font-family: Exotc;
+  font-size: 1.2em;
+}
+.Artical h1{
+  text-align: center;
+}
+
+.Artical {
+  height: 100%;
+  padding: 12.5% 15% 0 15%
+}
